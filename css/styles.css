@@ -1,0 +1,61 @@
+body {
+  margin:0;
+  padding:0;
+  background: #d1bea9;
+  color: #fff;
+  text-align: center;
+}
+header {
+  background: #b49b7f;
+  color: #444;
+}
+nav {
+  background: #b49b7f;
+ }
+nav a {
+  padding: 1em;
+  display: block;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em;
+}
+main {
+  background: #eee;
+  padding: .5em;
+}
+section {
+  background: #888;
+}
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {
+  nav a {
+    display: inline-block;
+  }
+  nav a:hover {
+    background: #777;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    background: #DBA901;
+    color: #999;
+  }
+  section:hover {
+    background: #666;
+  }
+}
+/* END FIRST BREAKPOINT */
