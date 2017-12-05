@@ -1,61 +1,129 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
 body {
-  margin:0;
-  padding:0;
-  background: #d1bea9;
-  color: #fff;
-  text-align: center;
+	margin: 0;
+	padding: 0;
+	background: #d1bea9;
+	color: #fff;
+	text-align: center;
+	font: sans-serif;
 }
-header {
-  background: #b49b7f;
-  color: #444;
-}
-nav {
-  background: #b49b7f;
- }
-nav a {
-  padding: 1em;
-  display: block;
+
+#div-page-content {
+	width: 100%;
+	background: #b49b7f;
+	overflow: hidden;
 }
 a {
-  color: #000;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
+nav{
+	margin: auto;
+}
+
+nav a {
+	display: block;
+	border: solid thin;
+	
+	
+}
+nav a:hover {
+	background: #777;
+	
+}
+.link-menu{
+	display: none;
+	right: 0;
+	margin-right: 35px;
+	position:absolute;
+	
+}
+.show-menu{
+	display: block;
+	
+}
+.separator{
+	border: thin solid #000000;
+}
+/*
+nav {
+	display: block;
+	border-bottom: solid;
+	width: 90%;
+	margin: auto
+}
+nav a {
+	padding: 1em;
+	display: none;
+}
+*/
+
 h1 {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 1em;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 1em;
 }
 main {
-  background: #eee;
-  padding: .5em;
+	
+	padding: .5em;
+}
+
+.hamburger {
+	width: 25px;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	position: absolute;
+	right:0;
+	cursor: pointer;
+
+}
+.hamburger-line {
+	background-color: #000000;
+	border: #000000;
+	padding: 2px;
+	margin: 3px;
+}
+
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width:500px) {
+	
+nav a {
+	display: inline;
+	border: none;
+	width: 100%;
+	
+}
+
+.link-menu{
+	display: inline;
+	margin: auto;
+	position: relative;
+	max-width: 20%;
+	
+}
+.hamburger {
+	display: none;
+}
+h1 {
+	font-size: 2em;
+}
+
+#div-page-content {
+	width: 90%;
+	margin: 0 auto;
+	background: #b49b7f;
+	
 }
 section {
-  background: #888;
+	width: 44%;
+	margin: 2%;
+	display: inline-block;
+	background: #DBA901;
+	color: #999;
 }
-/* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px) {
-  nav a {
-    display: inline-block;
-  }
-  nav a:hover {
-    background: #777;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  main {
-    width: 90%;
-    margin: 0 auto;
-  }
-  section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
-    background: #DBA901;
-    color: #999;
-  }
-  section:hover {
-    background: #666;
-  }
+section:hover {
+	background: #666;
+}
 }
 /* END FIRST BREAKPOINT */
