@@ -14,7 +14,7 @@
     }
     else { // false: it's hidden
      linkMenu.classList.remove("show-menu"),  linkMenu.classList.add("hide-menu"), // hide it
-     toggle = true
+    toggle = true
     }
   }
 
