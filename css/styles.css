@@ -1,61 +1,119 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
 body {
-  margin:0;
-  padding:0;
-  background: #d1bea9;
-  color: #fff;
-  text-align: center;
+	margin: 0;
+	padding: 0;
+	background: #d1bea9;
+	color: #fff;
+	text-align: center;
+	font: sans-serif;
 }
-header {
-  background: #b49b7f;
-  color: #444;
-}
-nav {
-  background: #b49b7f;
- }
-nav a {
-  padding: 1em;
-  display: block;
+
+.div-page-content {
+	width: 100%;
+	background: #b49b7f;
+	overflow: hidden;
+	margin:auto;
 }
 a {
-  color: #000;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
+nav{
+	position: static;
+}
+
+nav a {
+	display: block;
+	border: solid thin;
+	padding: 5px;
+	background:#d1bea9;
+	
+	
+}
+nav a:hover {
+	background: #777;
+	transition: all 0.4s;
+	
+}
+.link-menu{
+	transform: translateX(-100%);
+	position:absolute;
+	
+}
+.show-menu{
+	transform: translateX(0%);
+	transition: all 0.4s;
+}
+.hide-menu{
+	transform: translateX(-100%);
+	transition: all 0.4s;
+}
+.separator{
+	width:90%;
+	border: thin solid #FFF;
+	margin:auto;
+	margin-top: 5px;
+}
+
+
 h1 {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 1em;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 15px;
 }
 main {
-  background: #eee;
-  padding: .5em;
+	margin: 0;
+	padding: .5em;
+}
+
+.hamburger {
+	width: 25px;
+	cursor: pointer;
+	transition: all 0.4s;
+	position: relative;
+	left: 10px;
+	border: solid thin;
+}
+.hamburger:hover {
+	background-color: #777;
+}
+.hamburger-line {
+	background-color: #ffffff;
+	padding: 2px;
+	margin: 3px;
+}
+
+
+/* FIRST BREAKPOINT (Desktop SIZE) */
+@media screen and (min-width:500px) {
+
+.link-menu{
+	transform: none;
+	overflow: inherit;
+	position: relative;
+}
+nav a {
+	display: inline-block;
+	padding: 5px;
+}
+.hamburger {
+	display: none;
+}
+h1 {
+	font-size: 2em;
+}
+
+.div-page-content {
+	width: 65%;
 }
 section {
-  background: #888;
+	margin: 2%;
+	display: inline-block;
+	background: #DBA901;
+	color: #999;
 }
-/* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px) {
-  nav a {
-    display: inline-block;
-  }
-  nav a:hover {
-    background: #777;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  main {
-    width: 90%;
-    margin: 0 auto;
-  }
-  section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
-    background: #DBA901;
-    color: #999;
-  }
-  section:hover {
-    background: #666;
-  }
+section:hover {
+	background: #666;
+}
 }
 /* END FIRST BREAKPOINT */
