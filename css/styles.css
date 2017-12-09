@@ -82,6 +82,28 @@ main {
 	margin: 3px;
 }
 
+.contactpage-container{
+	vertical-align: top;
+}
+.contactform {
+	display:inline-block;
+	margin-left:10px;
+	width:50%;
+}
+
+.contactform input{
+	border: thin solid #ffffff;
+	padding:5px;
+	margin:2px;
+	display:block;
+}
+
+.contact-address{
+	display:inline-block;
+	text-align: left;
+	position: absolute;
+	right: 20px;
+}
 
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:500px) {
