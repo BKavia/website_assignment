@@ -84,11 +84,14 @@ main {
 
 .contactpage-container{
 	vertical-align: top;
+	overflow:hidden;
+	
 }
 .contactform {
 	display:inline-block;
-	margin-left:10px;
+	margin:10px;
 	width:50%;
+	text-align: left;
 }
 
 .contactform input{
@@ -96,13 +99,14 @@ main {
 	padding:5px;
 	margin:2px;
 	display:block;
+	width:100%;
 }
 
 .contact-address{
 	display:inline-block;
+	margin:10px;
 	text-align: left;
-	position: absolute;
-	right: 20px;
+	width:50%;
 }
 
 /* FIRST BREAKPOINT (Desktop SIZE) */
