@@ -5,11 +5,12 @@
 <title>Jewelry Empire Home</title>
 <link rel="stylesheet" href="css/styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 <div class="div-page-content">
   <header>
-    <h1>Contact</h1>
+    <h1>Jewelry Empire</h1>
   </header>
   <nav>
     <div class="hamburger" id="hamburger">
@@ -20,7 +21,7 @@
     <div class="link-menu" id="link-menu"> 
 		<a href="index.html">Home</a>
 		<a href="collections.html">Collections</a>
-		<a href="about.html">About</a> 
+		<a href="about.html">About Us</a> 
 		<a href="contact.html">Contact</a> 
 	</div>
   </nav>
@@ -28,31 +29,34 @@
   <div class="separator"> </div>
 
   <main>
+  <h3>Contact</h3>
    	<div>	
 	<div class="contact-address">
-	<b>Address</b><br/>
 					17 Humberstone Gate<br/>
-					Leicester<br/>
-					Leicestershire<br/>
-					LE1 1WA<br/>
-					www.jewelry-empire.co.uk<br/>
-					<b>Tel:</b> 08448009999<br/>
-					<b>Email:</b> support@jewelry-empire.co.uk<br/>
+					Leicester, LE1 1WA<br/>
+					<b>T:</b> 08448009999<br/>
+					support@jewelry-empire.co.uk<br/>
 					
 	</div>	
 	
 	<div class="contactform">
 	<b>Please submit any questions or general feedback using the form below.</b><br/>
 		<form action="#">
-			<input type="text" value="Name" />
-			<input type="text" value="Email" />
-			<input type="text" value="Subject" />
-			<textarea rows="4" cols="50">Message</textarea>
-			<button type="button">Submit</button>
+			<label for="txtName">Name</label>
+			<input type="text" value="" id="txtName"/>
+			<label for="txtEmail">Email</label>
+			<input type="text" value="" id="txtEmail"/>
+			<label for="txtSubject">Subject</label>
+			<input type="text" value="" id="txtSubject"/>
+			<label for="txtName">Message</label>
+			<textarea rows="4" cols="30" id="txtMessage"></textarea>
+			<div id="message" class="success_msg"></div>
+			<button type="button" id="submitBtn">Submit</button>
 		</form>
 	</div>
-	</div>				
-	<img src ="http://via.placeholder.com/400x200"/>				
+	</div>		
+	
+	<img src="http://via.placeholder.com/400x200" class="contact-map-image"/>				
 		
 		 
   </main>
@@ -63,4 +67,7 @@
 </div>
 </body>
 <script src="js/scripts.js"></script>
+<script src="js/contact_page_scripts.js"></script>
+
+
 </html>

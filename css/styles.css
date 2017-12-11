@@ -131,16 +131,30 @@ input, textarea{
 	margin:10px;
 	width:270px;
 }
+.contact-map-image{
+	width: 90%;
+}
+.error{
+	border: thin solid #FC080C ! important;
+}
+.error_msg{
+	color: #FC080C ! important;
+}
+.success_msg{
+	color: #6EAB3D;
+}
 .aboutpage{
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
 	margin:10px;
-	width:270px;
+	width:300px;
 }
 .aboutimage{
 	display:inline-block;
 	margin:10px;
+	width:90%;
+	
 }
 .collection-article{
 	display: inline-block;
@@ -227,8 +241,9 @@ section:hover {
 .contactform {
 	display:inline-block;
 }
+
 .aboutimage{
-	display:block;
+	width:auto;
 	
 }
 }
