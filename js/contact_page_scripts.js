@@ -56,8 +56,16 @@
 
 var map;
 function initMap() {
+	var store_location = {lat: 52.635829, lng: -1.1375853};
 map = new google.maps.Map(document.getElementById('map'), {
-  center: {lat: 52.6363816, lng: -1.1373841},
-  zoom: 10
+  center: store_location,
+  zoom: 15
 });
+var marker = new google.maps.Marker({
+          position: store_location,
+          map: map,
+		  label: "Jewelry Empire",
+		  animation: google.maps.Animation.BOUNCE 
+        });	
 }
+

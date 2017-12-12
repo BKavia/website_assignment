@@ -8,7 +8,6 @@ body {
 	font-family: Times New Roman;
 	height: 100%;
 }
-
 a {
 	color: #fff;
 	text-decoration: none;
@@ -17,12 +16,11 @@ nav a {
 	display: block;
 	border: solid thin;
 	padding: 5px;
-	background:#d1bea9;
+	background: #d1bea9;
 }
 nav a:hover {
 	background: #777;
 	transition: all 0.4s;
-	
 }
 h1 {
 	font-size: 1.5em;
@@ -33,73 +31,65 @@ main {
 	margin: 0;
 	padding: .5em;
 }
-
-input, textarea{
+input, textarea {
 	margin: 2px;
 	padding: 5px;
-	
 }
 figure {
-  width: 150px;
-  overflow: hidden;
-  margin:0;
+	width: 150px;
+	overflow: hidden;
+	margin: 0;
 }
-
 figcaption {
-  box-sizing: border-box;
-  line-height: 1.0em;
-  transform: translateY(4em);
-  background: #fff;
-  color:#b49b7f;
-  opacity: 0;
-  transition: all .5s;
+	box-sizing: border-box;
+	line-height: 1.0em;
+	transform: translateY(4em);
+	background: #fff;
+	color: #b49b7f;
+	opacity: 0;
+	transition: all .5s;
 }
-
 figure:hover figcaption {
-  transform: translateY(0em);
-  opacity: .78;
+	transform: translateY(0em);
+	opacity: .78;
 }
-
 .div-page-content {
 	width: 100%;
 	background: #b49b7f;
 	overflow: hidden;
-	margin:auto;
+	margin: 0 auto;
 }
-.link-menu{
+.link-menu {
 	-webkit-transform: translateX(-100%);
 	-moz-transform: translateX(-100%);
 	-o-transform: translateX(-100%);
 	-ms-transform: translateX(-100%);
 	transform: translateX(-100%);
-	
-	position:absolute;
+	position: absolute;
 }
-.show-menu{
+.show-menu {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	-o-transform: translateX(0%);
 	-ms-transform: translateX(0%);
 	transform: translateX(0%);
-	
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	-ms-transition: all 0.4s;
 	transition: all 0.4s;
 }
-.hide-menu{
+.hide-menu {
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	-ms-transition: all 0.4s;
 	transition: all 0.4s;
-	
 }
-.separator{
-	width:90%;
+.separator {
+	width: 90%;
 	border: thin solid #FFF;
-	margin:auto;
+	margin: 0 auto;
 	margin-top: 5px;
 }
 .hamburger {
@@ -118,55 +108,77 @@ figure:hover figcaption {
 	padding: 2px;
 	margin: 3px;
 }
-
-
 .contactform {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	width:270px;
-	margin:10px;
+	width: 270px;
+	margin: 10px;
 }
-
-.contactform input, textarea{
+.contactform input, textarea {
 	border: thin solid #ffffff;
-	display:block;
-	width:100%;
+	display: block;
+	width: 100%;
 }
-.contact-address{
+.contact-address {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin:10px;
-	width:270px;
+	margin: 10px;
+	width: 270px;
 }
-.map{
+.map {
 	width: 90%;
 	height: 300px;
-	margin: auto;
+	margin: 0 auto;
 }
-.error{
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.image-slider{ overflow: hidden;  width: 90%; margin: 0 auto; }
+.image-slider figure img { width: 20%; float: left; }
+.image-slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
+
+.error {
 	border: thin solid #FC080C ! important;
 }
-.error_msg{
+.error_msg {
 	color: #FC080C ! important;
 }
-.success_msg{
+.success_msg {
 	color: #6EAB3D;
 }
-.aboutpage{
+.aboutpage {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin:10px;
-	width:300px;
+	margin: 10px;
+	width: 300px;
 }
-.aboutimage{
-	display:inline-block;
-	margin:10px;
-	width:300px;
+.aboutimage {
+	display: inline-block;
+	margin: 10px;
+	width: 300px;
 }
-.collection-article{
+.collection-article {
 	display: inline-block;
 	margin: 30px;
 	background-color: #d1bea9;
@@ -175,26 +187,21 @@ figure:hover figcaption {
 	padding: 10px;
 	width: 150px;
 }
-
-.collection-article:hover{
+.collection-article:hover {
 	border: thin solid #ffffff;
 }
-.collection-article input[type="button"]{
-	display:block;
-	margin: auto;
+.collection-article input[type="button"] {
+	display: block;
+	margin: 0 auto;
 }
-.homeimage1{
-	display:inline-block;
-	width:750px;
+
+.small-images{
+margin: 5px;
+width:90%;
+	
 }
-.flex-1{
-	display:inline-block;
-	width:25%;
-}
-.flex-2{
-	display:inline-block;
-	width:25%;
-}
+
+
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:500px) {
 nav a {
@@ -204,8 +211,7 @@ nav a {
 h1 {
 	font-size: 2em;
 }
-
-.link-menu{
+.link-menu {
 	transform: none;
 	overflow: inherit;
 	position: relative;
@@ -217,10 +223,8 @@ h1 {
 	width: 65%;
 }
 .contactform {
-	display:inline-block;
+	display: inline-block;
 }
-
-
 }
 
 /* END FIRST BREAKPOINT */
