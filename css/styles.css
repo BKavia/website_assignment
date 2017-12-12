@@ -5,7 +5,8 @@ body {
 	background: #d1bea9;
 	color: #fff;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: Times New Roman;
+	height: 100%;
 }
 
 a {
@@ -139,8 +140,10 @@ figure:hover figcaption {
 	margin:10px;
 	width:270px;
 }
-.contact-map-image{
+.map{
 	width: 90%;
+	height: 300px;
+	margin: auto;
 }
 .error{
 	border: thin solid #FC080C ! important;
@@ -162,7 +165,6 @@ figure:hover figcaption {
 	display:inline-block;
 	margin:10px;
 	width:300px;
-
 }
 .collection-article{
 	display: inline-block;
@@ -181,8 +183,18 @@ figure:hover figcaption {
 	display:block;
 	margin: auto;
 }
-
-
+.homeimage1{
+	display:inline-block;
+	width:750px;
+}
+.flex-1{
+	display:inline-block;
+	width:25%;
+}
+.flex-2{
+	display:inline-block;
+	width:25%;
+}
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:500px) {
 nav a {
@@ -192,15 +204,7 @@ nav a {
 h1 {
 	font-size: 2em;
 }
-section {
-	margin: 2%;
-	display: inline-block;
-	background: #DBA901;
-	color: #999;
-}
-section:hover {
-	background: #666;
-}
+
 .link-menu{
 	transform: none;
 	overflow: inherit;
