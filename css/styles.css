@@ -68,6 +68,7 @@ figure:hover figcaption {
 	position: absolute;
 }
 .show-menu {
+	 z-index: 1;
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	-o-transform: translateX(0%);

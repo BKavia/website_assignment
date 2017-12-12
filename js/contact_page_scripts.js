@@ -65,7 +65,7 @@ var marker = new google.maps.Marker({
           position: store_location,
           map: map,
 		  label: "Jewelry Empire",
-		  animation: google.maps.Animation.BOUNCE 
+		  animation: google.maps.Animation.DROP 
         });	
 }
 
