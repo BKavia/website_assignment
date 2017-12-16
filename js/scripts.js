@@ -1,11 +1,11 @@
 (function () {
 
-	var hamburger = document.getElementById("hamburger");
-	var linkMenu = document.getElementById("link-menu");
+	let hamburger = document.getElementById("hamburger");
+	let linkMenu = document.getElementById("link-menu");
 
 	hamburger.addEventListener("click", toggleMenu);
 
-	var toggle = true; // hidden at first
+	let toggle = true; // hidden at first
 	function toggleMenu() {
 
 		if (toggle) { // true: it's visible

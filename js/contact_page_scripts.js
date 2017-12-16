@@ -1,17 +1,17 @@
 (function () {
 
-	var name = document.getElementById("txtName");
-	var email = document.getElementById("txtEmail");
-	var subject = document.getElementById("txtSubject");
-	var message = document.getElementById("txtMessage");
-	var valMessage = document.getElementById("message");
-	var submitBtn = document.getElementById("submitBtn");
+	let name = document.getElementById("txtName");
+	let email = document.getElementById("txtEmail");
+	let subject = document.getElementById("txtSubject");
+	let message = document.getElementById("txtMessage");
+	let valMessage = document.getElementById("message");
+	let submitBtn = document.getElementById("submitBtn");
 	
 	submitBtn.addEventListener("click", validate);
 
 	
 	function validate() {
-		var hasError = false; 
+		let hasError = false; 
 		hasError = validateField(name, valMessage);
 		hasError = validateField(email, valMessage);
 		hasError = validateField(subject, valMessage);
@@ -30,7 +30,7 @@
 	}
 	
 	function validateField(field, valMessage){
-		var isFailed = false; 
+		let isFailed = false; 
 		if (field.value.trim().length == 0) {
 			isFailed = true;
 			displayError(field, valMessage, true);

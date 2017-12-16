@@ -60,31 +60,31 @@ figure:hover figcaption {
 	margin: 0 auto;
 }
 .link-menu {
-	-webkit-transform: translateX(-100%);
-	-moz-transform: translateX(-100%);
-	-o-transform: translateX(-100%);
-	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+	transform: translateX(-100%);
+	transform: translateX(-100%);
+	transform: translateX(-100%);
 	transform: translateX(-100%);
 	position: absolute;
 }
 .show-menu {
 	 z-index: 1;
-	-webkit-transform: translateX(0%);
-	-moz-transform: translateX(0%);
-	-o-transform: translateX(0%);
-	-ms-transform: translateX(0%);
 	transform: translateX(0%);
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-ms-transition: all 0.4s;
+	transform: translateX(0%);
+	transform: translateX(0%);
+	transform: translateX(0%);
+	transform: translateX(0%);
+	transition: all 0.4s;
+	transition: all 0.4s;
+	transition: all 0.4s;
+	transition: all 0.4s;
 	transition: all 0.4s;
 }
 .hide-menu {
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+	transition: all 0.4s;
+	transition: all 0.4s;
+	transition: all 0.4s;
 	transition: all 0.4s;
 }
 .separator {
