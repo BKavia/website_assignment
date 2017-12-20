@@ -1,31 +1,36 @@
-# website_assignment 
+# Website Assignment 
 
 
-The topic for the website is selling Jewellery.
+The website is themed on an ecommerce site selling Jewellery.
 
-I am required to create the website that I have designed as part of the CTEC3905 Front End Web Development. The website contains four pages: Index page, Collection page, About Us page and Contact page. In the website, JavaScript was used to check the user input. If the user did not write anything in the text boxes, a message is displayed to the user to fill the text field. This was repeated for all the fields in the form. Some javascript was also used for googlemap. CSS styles were added to the website for mobile and desktop. Animation and transition were also used on the website.
+The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page. In the website, JavaScript was used to validate the user input. If the user did not write anything in the text boxes, a message is displayed to the user to fill the text field. This was repeated for all the fields on the contact form. Some javascript was also used to add the location marker and provide the company name using google maps API on the contacts page. CSS styles were added to the website for mobile and desktop versions. The CSS style use animation and transition to achieve some effects on the pages.
 
 
 4 Basic design principles
-Proximity:
-Alignment:
-Repetition:
-Contrast: The layout of the website is used simple so that the information is presented in clear way. The colour of the website is visually pleasing to see and make the website attractive. The simple font and font sizes are used for the customers to read content of the pages.
+Proximity: Grouping related products to for a group. On the website, related or similar products are places close to each other on the collection page where image and product details are grouped. The users can view the details and price together and make their selection.
+
+Alignment: Elements have been aligned on every page of the website to create an appealing layout. Alignment is important to get a consistent feel for both the Mobile and Desktop versions so that the information on the page is structured in a clear way. It makes it easier for the users to view the pages.
+
+Repetition: The design theme has been repeated on the pages to create a consistent look. The same size of fonts for the body and titles have been used to make the sections look similar and for the customers to read the content of the pages easily.The images have a similar background style to make the pages consistent across the site.
+
+Contrast: The layout of the website is simple so that the information is presented in a clear way. The main body of the website is presented in a contrasting colour to make it look visually pleasing. The navigation links as use a contrasting colour on hover to highlight possible selections on the links to go to different pages. 
 
 Information Architecture
-Users: The user is people who want to buy jewellery. They can be nationally or internationally. 
+Potential Users: People who want to buy jewellery. They can be viewing the website nationally or internationally. 
 
-Content: Simple navigation is used to navigate between pages for the audience. For mobile first, hamburger drop-down list menu used to navigate pages.
+Content: Simple navigation is used to navigate between pages for the audience. For the mobile version, a hamburger drop-down list menu used to navigate pages.
 
-Context: The purpose of the jewellery website is to sell products online and traget a many customer. The website is meant to be used by people irrespective of their gender, ethnicity or computer experience. The Jewelry Empire's aim is to get as many customers as possible and make maximum profits from sales. 
+Context: The purpose of the jewellery website is to sell products online and target online customers. The website is meant to be used by people irrespective of their gender, ethnicity or computer experience. The Jewelry Empire's aim is to get as many customers as possible and make maximum profits from sales. 
 
 Validation
 HTML:
 CSS:
-Accessebility: 
+Accessibility: 
+
+# Wireframes
+To view the hand drawn wireframes, please view <a href="wireframes/wireframes.html">this</a> page.
 
 
-
-References
+# References
 https://www.w3schools.com/html/
-W3 School website was used to get some idea for html, css, javaScript, hamburger, transition, animation etc. 
+W3 School website was used to reference HTML, CSS, JavaScript, Transitions, and Animations 

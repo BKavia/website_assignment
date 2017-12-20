@@ -199,9 +199,11 @@ figure:hover figcaption {
 .small-images{
 margin: 5px;
 width:90%;
+}
+.imageOverlay{
+	width: 300px;
 	
 }
-
 
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:500px) {
