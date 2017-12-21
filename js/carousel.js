@@ -1,6 +1,4 @@
 
-
-
 (function () {
 
 	let leftButton = document.getElementById("leftButton");

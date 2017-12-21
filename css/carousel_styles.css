@@ -16,11 +16,11 @@ figure {
   height: 150px;
 }
 .scrollBtn{
-  background-color: grey;
+  background-color: #d1bea9;
   text-decoration:none;
   font-size: 30px;
   color: #FFF;
-  border: none;
+  border: thin solid #FFF;
 }
 .scrollBtn:hover{
   background-color: #777;
