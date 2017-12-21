@@ -1,0 +1,55 @@
+.left, .right{
+  display: table-cell;
+  width:20px;
+  vertical-align: middle;
+}
+figure {
+	width: 150px;
+	margin: 0;
+}
+.middle{
+ display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+  border: thin solid;
+  min-width : 200%;
+  height: 150px;
+}
+.scrollBtn{
+  background-color: grey;
+  text-decoration:none;
+  font-size: 30px;
+  color: #FFF;
+  border: none;
+}
+.scrollBtn:hover{
+  background-color: #777;
+  transition: all 0.4s;
+}
+.collection-image{
+	width:70%;
+}
+.collection-article{
+	margin:10px;
+}
+.container{
+  width:95%;
+  height:150px;
+  display: table;
+  margin: auto;
+
+
+}
+.floatleft{
+	float:left;
+}
+.image{
+  width:100px;
+  height:100px;
+  border: thin solid;
+  display:inline-block;
+  float:left;
+}
+.carousel{
+ width:500%;
+}

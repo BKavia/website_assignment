@@ -41,7 +41,6 @@ figure {
 	margin: 0;
 }
 figcaption {
-	box-sizing: border-box;
 	line-height: 1.0em;
 	transform: translateY(4em);
 	background: #fff;
@@ -61,30 +60,14 @@ figure:hover figcaption {
 }
 .link-menu {
 	transform: translateX(-100%);
-	transform: translateX(-100%);
-	transform: translateX(-100%);
-	transform: translateX(-100%);
-	transform: translateX(-100%);
 	position: absolute;
 }
 .show-menu {
 	 z-index: 1;
 	transform: translateX(0%);
-	transform: translateX(0%);
-	transform: translateX(0%);
-	transform: translateX(0%);
-	transform: translateX(0%);
-	transition: all 0.4s;
-	transition: all 0.4s;
-	transition: all 0.4s;
-	transition: all 0.4s;
 	transition: all 0.4s;
 }
 .hide-menu {
-	transition: all 0.4s;
-	transition: all 0.4s;
-	transition: all 0.4s;
-	transition: all 0.4s;
 	transition: all 0.4s;
 }
 .separator {
@@ -92,6 +75,7 @@ figure:hover figcaption {
 	border: thin solid #FFF;
 	margin: 0 auto;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .hamburger {
 	width: 25px;
@@ -105,7 +89,7 @@ figure:hover figcaption {
 	background-color: #777;
 }
 .hamburger-line {
-	background-color: #ffffff;
+	background-color: #FFF;
 	padding: 2px;
 	margin: 3px;
 }
@@ -117,7 +101,7 @@ figure:hover figcaption {
 	margin: 10px;
 }
 .contactform input, textarea {
-	border: thin solid #ffffff;
+	border: thin solid #FFF;
 	display: block;
 	width: 100%;
 }
@@ -135,8 +119,8 @@ figure:hover figcaption {
 }
 
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
+0% { left: 0; }
+20% { left: 0; }
 25% { left: -100%; }
 45% { left: -100%; }
 50% { left: -200%; }
@@ -183,13 +167,12 @@ figure:hover figcaption {
 	display: inline-block;
 	margin: 30px;
 	background-color: #d1bea9;
-	color: #ffffff;
+	color: #FFF;
 	border-radius: 5px;
 	padding: 10px;
-	width: 150px;
 }
 .collection-article:hover {
-	border: thin solid #ffffff;
+	border: thin solid #FFF;
 }
 .collection-article input[type="button"] {
 	display: block;
@@ -200,10 +183,7 @@ figure:hover figcaption {
 margin: 5px;
 width:90%;
 }
-.imageOverlay{
-	width: 300px;
-	
-}
+
 
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:500px) {

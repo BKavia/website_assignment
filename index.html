@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Jewellery Empire - Home</title>
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/carousel_styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -32,7 +33,49 @@
 	</figure>
 	</div>
 	
-	<img src="images/image_2.jpg" class="small-images" alt="Small Product Image 2"/> 
+	 <div class="separator"> </div>
+	 
+	<div class="container">
+  <div class="left"><input type="button" class="scrollBtn" value="&lt;" id="leftButton"/>
+  </div>
+  <div class="middle" id="carousel_container">
+    <div class="carousel" id="carousel">
+       <div class="collection-article floatleft">
+        <figure> 
+			<img src="images/necklace_2small.jpg" alt="necklace" class="collection-image" />
+	      <figcaption> Quick View </figcaption>
+        </figure>
+        <div>Price: &pound;120.00</div>
+        <input type="button" value="Add"/>
+      </div>
+        <div class="collection-article floatleft">
+        <figure> <img src="images/earring_2small.jpg" alt="earring" class="collection-image" />
+          <figcaption> Quick View </figcaption>
+        </figure>
+        <div>Price: &pound;50.00</div>
+        <input type="button" value="Add">
+      </div>
+      <div class="collection-article floatleft">
+        <figure> <img src="images/earring_1small.jpg" alt="earring" class="collection-image" />
+          <figcaption> Quick View </figcaption>
+        </figure>
+        <div>Price: &pound;90.00</div>
+        <input type="button" value="Add">
+      </div>
+      <div class="collection-article  floatleft">
+        <figure> <img src="images/bracelet_1small.jpg" alt="bracelet" class="collection-image" />
+          <figcaption> Quick View </figcaption>
+        </figure>
+        <div>Price: &pound;80.00</div>
+        <input type="button" value="Add">
+      </div>
+      
+    </div>
+  </div>
+  <div class="right">
+  <input type="button" class="scrollBtn" value="&gt;" id="rightButton"/>
+  
+</div>
     
 
     </section>
@@ -42,4 +85,5 @@
 </div>
 </body>
 <script src="js/scripts.js"></script>
+<script src="js/carousel.js"></script>
 </html>
