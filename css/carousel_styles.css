@@ -12,8 +12,6 @@ figure {
   vertical-align: middle;
   overflow: hidden;
   border: thin solid;
-  min-width : 200%;
-  height: 150px;
 }
 .scrollBtn{
   background-color: #d1bea9;
@@ -37,18 +35,9 @@ figure {
   height:150px;
   display: table;
   margin: auto;
-
-
 }
 .floatleft{
 	float:left;
-}
-.image{
-  width:100px;
-  height:100px;
-  border: thin solid;
-  display:inline-block;
-  float:left;
 }
 .carousel{
  width:500%;
