@@ -50,7 +50,7 @@ Grouping related products to for a group. On the website, related or similar pro
 ![Desktop_aboutus_wireframe](wireframes/desktop_aboutus.jpg "Desktop_aboutus")
 ![desktop_contact_wireframe](wireframes/desktop_contact.jpg "desktop_contact")
 
-![mobile_home_wireframe](wireframes/mobile_home.jpg "mobile_home")
+![mobile_home_wireframe](wireframes/mobile_home1.jpg "mobile_home")
 ![mobile_collections_wireframe](wireframes/mobile_collections.jpg "mobile_collections")
 ![mobile_aboutus_wireframe](wireframes/mobile_aboutus.jpg "mobile_aboutus")
 ![mobile_contact_wireframe](wireframes/mobile_contact.jpg "mobile_contact")
