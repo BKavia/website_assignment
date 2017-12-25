@@ -29,7 +29,7 @@ The requirement was to create the website that I have designed as part of the CT
 
 ##Wireframes
 **Hand drawn wireframes**
-![Desktop_aboutus_wireframe](screenshots/desktop_aboutus.jpg "Desktop_aboutus")
+![Desktop_aboutus_wireframe](wireframes/desktop_aboutus.jpg "Desktop_aboutus")
 
 ##References
 https://www.w3schools.com/html/
