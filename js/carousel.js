@@ -11,14 +11,14 @@
 	let containerWidth = document.getElementById("carousel_container").offsetWidth;
 	let carouselDiv = document.getElementById("carousel");
 
-	function moveRight(){
+	function moveLeft(){
 	  if (containerWidth >= currentPos ){
 		  currentPos = (currentPos + 100);
 		  carouselDiv.style.transform = "translateX("+currentPos+"px)";
 	 }
 	}
 
-	function moveLeft(){
+	function moveRight(){
 	  currentPos = (currentPos - 100);
 	  if (currentPos < -containerWidth ){
 			currentPos = -containerWidth;

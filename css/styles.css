@@ -29,7 +29,7 @@ h1 {
 }
 main {
 	margin: 0;
-	padding: .5em;
+	padding: 0.5em;
 }
 input, textarea {
 	margin: 2px;
@@ -50,7 +50,7 @@ figcaption {
 }
 figure:hover figcaption {
 	transform: translateY(0em);
-	opacity: .78;
+	opacity: 0.78;
 }
 .div-page-content {
 	width: 100%;
@@ -130,8 +130,14 @@ figure:hover figcaption {
 100% { left: -400%; }
 }
 
-.image-slider{ overflow: hidden;  width: 90%; margin: 0 auto; }
-.image-slider figure img { width: 20%; float: left; }
+.image-slider{
+	overflow: hidden;  
+	width: 90%; 
+	margin: 0 auto;
+}
+.image-slider figure img {
+	width: 20%;
+}
 .image-slider figure { 
   position: relative;
   width: 500%;
@@ -179,10 +185,6 @@ figure:hover figcaption {
 	margin: 0 auto;
 }
 
-.small-images{
-margin: 5px;
-width:90%;
-}
 
 
 /* FIRST BREAKPOINT (Desktop SIZE) */

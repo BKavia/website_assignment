@@ -3,10 +3,6 @@
   width:20px;
   vertical-align: middle;
 }
-figure {
-	width: 150px;
-	margin: 0;
-}
 .middle{
  display: table-cell;
   vertical-align: middle;
