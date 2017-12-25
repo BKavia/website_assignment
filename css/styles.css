@@ -5,7 +5,7 @@ body {
 	background: #d1bea9;
 	color: #fff;
 	text-align: center;
-	font-family: Times New Roman;
+	font-family: "Times New Roman";
 	height: 100%;
 }
 a {
@@ -26,10 +26,6 @@ h1 {
 	font-size: 1.5em;
 	margin: 0;
 	padding: 15px;
-}
-main {
-	margin: 0;
-	padding: 0.5em;
 }
 input, textarea {
 	margin: 2px;
@@ -63,7 +59,7 @@ figure:hover figcaption {
 	position: absolute;
 }
 .show-menu {
-	 z-index: 1;
+	z-index: 1;
 	transform: translateX(0%);
 	transition: all 0.4s;
 }
@@ -72,10 +68,8 @@ figure:hover figcaption {
 }
 .separator {
 	width: 90%;
-	border: thin solid #FFF;
-	margin: 0 auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	border: thin solid #fff;
+	margin: 10px auto;
 }
 .hamburger {
 	width: 25px;
@@ -89,7 +83,7 @@ figure:hover figcaption {
 	background-color: #777;
 }
 .hamburger-line {
-	background-color: #FFF;
+	background-color: #fff;
 	padding: 2px;
 	margin: 3px;
 }
@@ -101,7 +95,7 @@ figure:hover figcaption {
 	margin: 10px;
 }
 .contactform input, textarea {
-	border: thin solid #FFF;
+	border: thin solid #fff;
 	display: block;
 	width: 100%;
 }
@@ -117,37 +111,52 @@ figure:hover figcaption {
 	height: 300px;
 	margin: 0 auto;
 }
-
-@keyframes slidy {
-0% { left: 0; }
-20% { left: 0; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+ @keyframes slidy {
+0% {
+left: 0;
 }
-
-.image-slider{
-	overflow: hidden;  
-	width: 90%; 
+20% {
+left: 0;
+}
+25% {
+left: -100%;
+}
+45% {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+70% {
+left: -200%;
+}
+75% {
+left: -300%;
+}
+95% {
+left: -300%;
+}
+100% {
+left: -400%;
+}
+}
+.image-slider {
+	overflow: hidden;
+	width: 90%;
 	margin: 0 auto;
 }
 .image-slider figure img {
 	width: 20%;
 }
-.image-slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 15s slidy infinite; 
+.image-slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 15s slidy infinite;
 }
-
 .error {
 	border: thin solid #FC080C ! important;
 }
@@ -173,22 +182,20 @@ figure:hover figcaption {
 	display: inline-block;
 	margin: 30px;
 	background-color: #d1bea9;
-	color: #FFF;
+	color: #fff;
 	border-radius: 5px;
 	padding: 10px;
 }
 .collection-article:hover {
-	border: thin solid #FFF;
+	border: thin solid #fff;
 }
 .collection-article input[type="button"] {
 	display: block;
 	margin: 0 auto;
 }
 
-
-
 /* FIRST BREAKPOINT (Desktop SIZE) */
-@media screen and (min-width:500px) {
+@media screen and (min-width:480px) {
 nav a {
 	display: inline-block;
 	padding: 5px;
