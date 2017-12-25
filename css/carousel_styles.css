@@ -27,7 +27,7 @@
 	margin:10px;
 }
 .container{
-  width:95%;
+  width:640px;
   height:150px;
   display: table;
   margin: auto;
@@ -37,4 +37,5 @@
 }
 .carousel{
  width:500%;
+ border: thin solid blue;
 }

@@ -10,16 +10,24 @@
 	let currentPos = 0;
 	let containerWidth = document.getElementById("carousel_container").offsetWidth;
 	let carouselDiv = document.getElementById("carousel");
-
+	let carouselDivLeft = document.getElementById("carousel").offsetLeft;
+	
 	function moveLeft(){
-	  if (containerWidth >= currentPos ){
-		  currentPos = (currentPos + 100);
+		  console.log("left",currentPos, carouselDivLeft);
+		  
+		  //if (currentPos <= 0){
+		//	  currentPos = 0;
+		 // }else{
+			  currentPos = (currentPos + 190);
+		 // }
+		  
 		  carouselDiv.style.transform = "translateX("+currentPos+"px)";
-	 }
 	}
 
 	function moveRight(){
-	  currentPos = (currentPos - 100);
+		    console.log(currentPos, carouselDivLeft);
+	
+	  currentPos = (currentPos - 190);
 	  if (currentPos < -containerWidth ){
 			currentPos = -containerWidth;
 	  }
