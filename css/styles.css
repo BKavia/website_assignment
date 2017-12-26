@@ -193,7 +193,9 @@ left: -400%;
 	display: block;
 	margin: 0 auto;
 }
-
+.collection-image{
+	width:100%;
+}
 /* FIRST BREAKPOINT (Desktop SIZE) */
 @media screen and (min-width:480px) {
 nav a {

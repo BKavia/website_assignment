@@ -1,31 +1,36 @@
 (function () {
 
-	let leftButton = document.getElementById("leftButton");
-	let rightButton = document.getElementById("rightButton");
+	menu_script = function () {
 
-	leftButton.addEventListener("click", moveLeft);
-	rightButton.addEventListener("click", moveRight);
+		let leftButton = document.getElementById("leftButton");
+		let rightButton = document.getElementById("rightButton");
 
-	let currentPos = 0;
-	let currentIndex = 1;
-	let articleWidth = 190;
-	let noOfArticles = document.getElementsByClassName("collection-article").length;
-	let carouselDiv = document.getElementById("carousel");
-	
-	function moveLeft() {
-		if (currentIndex > 1) {
-			currentPos = (currentPos + articleWidth);
-			currentIndex--;
+		leftButton.addEventListener("click", moveLeft);
+		rightButton.addEventListener("click", moveRight);
+
+		let currentPos = 0;
+		let currentIndex = 1;
+		let articleWidth = 190;
+		let noOfArticles = document.getElementsByClassName("collection-article").length;
+		let carouselDiv = document.getElementById("carousel");
+
+		function moveLeft() {
+			if (currentIndex > 1) {
+				currentPos = (currentPos + articleWidth);
+				currentIndex--;
+			}
+			carouselDiv.style.transform = "translateX(" + currentPos + "px)";
 		}
-		carouselDiv.style.transform = "translateX(" + currentPos + "px)";
-	}
 
-	function moveRight() {
-		if (currentIndex < noOfArticles) {
-			currentPos = (currentPos - articleWidth);
-			currentIndex++;
+		function moveRight() {
+			if (currentIndex < noOfArticles) {
+				currentPos = (currentPos - articleWidth);
+				currentIndex++;
+			}
+			carouselDiv.style.transform = "translateX(" + currentPos + "px)";
 		}
-		carouselDiv.style.transform = "translateX(" + currentPos + "px)";
-	}
+
+	};
+	window.addEventListener("load", menu_script);
 
 })();
