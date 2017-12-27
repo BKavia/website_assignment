@@ -44,7 +44,7 @@ Grouping related products to for a group. On the website, related or similar pro
 **3. Accessibility** 
 
 ## Hand drawn Wireframes
-**Mobile first wireframes**
+**Mobile first Wireframes**
 ![mobile_home_collections_wireframe](wireframes/mobile_home_collections.jpg "mobile_home_collections")
 ![mobile_aboutUs_contact_wireframe](wireframes/mobile_aboutUs_contact.jpg "mobile_aboutUs_contact")
 
