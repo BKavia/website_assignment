@@ -8,101 +8,98 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="js/scripts.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/add_to_basket.js"></script>
 </head>
 <body>
 <div class="div-page-content">
-  <header>
-    <h1>Jewellery Empire</h1>
-  </header>
-  <nav>
-    <div class="hamburger" id="hamburger">
-      <div class="hamburger-line"></div>
-      <div class="hamburger-line"></div>
-      <div class="hamburger-line"></div>
-    </div>
-    <div class="link-menu" id="link-menu"> <a href="index.html">Home</a> <a href="collections.html">Collections</a> <a href="about.html">About Us</a> <a href="contact.html">Contact</a> </div>
-  </nav>
-  <div class="separator"> </div>
-  <main>
-    <section>
-      <div class="image-slider">
-        <figure> <img src="images/home_image1.jpg" alt="Home Product Image 1"/> <img src="images/home_image2.jpg" alt="Home Product Image 2"/> <img src="images/home_image3.jpg" alt="Home Product Image 3"/> <img src="images/home_image1.jpg" alt="Home Product Image 1"/> <img src="images/home_image3.jpg" alt="Home Product Image 3"/> </figure>
-      </div>
-      <div class="separator"> </div>
-      <div class="container">
-        <div class="left">
-          <input type="button" class="scrollBtn" value="&lt;" id="leftButton"/>
-        </div>
-        <div class="middle" id="carousel_container">
-          <div class="carousel" id="carousel">
-		  <div class="collection-article floatleft">
-              <figure> <img src="images/earring_3.jpg" alt="earring" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;50.00</div>
-              <input type="button" value="Add">
-            </div>
-			<div class="collection-article floatleft">
-              <figure> <img src="images/bracelet_3.jpg" alt="bracelet" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;50.00</div>
-              <input type="button" value="Add">
-            </div>
-			<div class="collection-article floatleft">
-              <figure> <img src="images/bracelet_4.jpg" alt="bracelet" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;50.00</div>
-              <input type="button" value="Add">
-            </div>
-            <div class="collection-article floatleft">
-              <figure> <img src="images/ring_4.jpg" alt="ring" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;120.00</div>
-              <input type="button" value="Add"/>
-            </div>
-            <div class="collection-article floatleft">
-              <figure> <img src="images/necklace_3.jpg" alt="necklace" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;50.00</div>
-              <input type="button" value="Add">
-            </div>
-            <div class="collection-article floatleft">
-              <figure> <img src="images/ring_2.jpg" alt="ring" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;90.00</div>
-              <input type="button" value="Add">
-            </div>
-			<div class="collection-article floatleft">
-              <figure> <img src="images/necklace_4.jpg" alt="necklace" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;50.00</div>
-              <input type="button" value="Add">
-            </div>
-            <div class="collection-article floatleft">
-              <figure> <img src="images/ring_3.jpg" alt="ring" class="collection-image" />
-                <figcaption> Quick View </figcaption>
-              </figure>
-              <div>Price: &pound;80.00</div>
-              <input type="button" value="Add">
-            </div>
-		
-			
-          </div>
-        </div>
-        <div class="right">
-          <input type="button" class="scrollBtn" value="&gt;" id="rightButton"/>
-        </div>
-      </div>
-    </section>
-  </main>
-  <div class="separator"> </div>
-  <footer> &copy; 2017 </footer>
+	<header>
+		<h1>Jewellery Empire</h1>
+	</header>
+	<nav> <img src="images/menu.png" alt="Menu" class="hamburger" id="hamburger"/>
+		<div class="link-menu" id="link-menu"> <a href="index.html">Home</a> <a href="collections.html">Collections</a> <a href="about.html">About Us</a> <a href="contact.html">Contact</a> </div>
+		<div class="cart"> <img src="images/shopping-cart.png" alt="Shopping cart" class="cart-image"/>
+			<div id="cartText" class="cart-text">0</div>
+		</div>
+	</nav>
+	<hr class="separator"/>
+	<main>
+		<section>
+			<div class="image-slider">
+				<figure> <img src="images/home_image1.jpg" alt="Home Product Image 1"/> <img src="images/home_image2.jpg" alt="Home Product Image 2"/> <img src="images/home_image3.jpg" alt="Home Product Image 3"/> <img src="images/home_image1.jpg" alt="Home Product Image 1"/> <img src="images/home_image3.jpg" alt="Home Product Image 3"/> </figure>
+			</div>
+			<hr class="separator"/>
+			<div class="container">
+				<div class="left">
+					<input type="button" class="scrollBtn" value="&lt;" id="leftButton"/>
+				</div>
+				<div class="middle" id="carousel_container">
+					<div class="carousel" id="carousel">
+						<div class="collection-article floatleft">
+							<figure> <img src="images/earring_3.jpg" alt="earring" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;50.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/bracelet_3.jpg" alt="bracelet" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;50.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/bracelet_4.jpg" alt="bracelet" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;50.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/ring_4.jpg" alt="ring" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;120.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/necklace_3.jpg" alt="necklace" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;50.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/ring_2.jpg" alt="ring" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;90.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/necklace_4.jpg" alt="necklace" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;50.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+						<div class="collection-article floatleft">
+							<figure> <img src="images/ring_3.jpg" alt="ring" class="collection-image" />
+								<figcaption> Quick View </figcaption>
+							</figure>
+							<div>Price: &pound;80.00</div>
+							<input type="button" value="Add" class="addBtn"/>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<input type="button" class="scrollBtn" value="&gt;" id="rightButton"/>
+				</div>
+			</div>
+		</section>
+	</main>
+	<hr class="separator"/>
+	<footer>&copy; 2017</footer>
 </div>
 </body>
 </html>

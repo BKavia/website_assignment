@@ -8,17 +8,19 @@ body {
 	font-family: "Times New Roman";
 	height: 100%;
 }
-a {
-	color: #fff;
-	text-decoration: none;
+nav{
+	height: 25px;
+	min-width: max-content;
 }
-nav a {
+nav a, .collection-article input[type="button"]  {
 	display: block;
 	border: solid thin;
 	padding: 5px;
 	background: #d1bea9;
+	color: #fff;
+	text-decoration: none;
 }
-nav a:hover {
+nav a:hover, .collection-article input[type="button"]:hover  {
 	background: #777;
 	transition: all 0.4s;
 }
@@ -57,6 +59,7 @@ figure:hover figcaption {
 .link-menu {
 	transform: translateX(-100%);
 	position: absolute;
+	top:80px;
 }
 .show-menu {
 	z-index: 1;
@@ -67,25 +70,35 @@ figure:hover figcaption {
 	transition: all 0.4s;
 }
 .separator {
-	width: 90%;
+	width: 95%;
 	border: thin solid #fff;
 	margin: 10px auto;
 }
 .hamburger {
-	width: 25px;
 	cursor: pointer;
 	transition: all 0.4s;
-	position: relative;
-	left: 10px;
-	border: solid thin;
+	float: left;
+	margin-left: 20px;
 }
-.hamburger:hover {
+.hamburger:hover, .cart-image:hover {
 	background-color: #777;
 }
-.hamburger-line {
-	background-color: #fff;
-	padding: 2px;
-	margin: 3px;
+
+
+.cart{
+	position: relative;
+	cursor: pointer;
+	float: right;
+}
+.cart-image{
+	cursor: pointer;
+	transition: all 0.4s;
+	margin-right: 20px;
+}
+.cart-text{
+	position: absolute;
+	top:-10px;
+	left: 10px;
 }
 .contactform {
 	display: inline-block;
@@ -192,6 +205,7 @@ left: -400%;
 .collection-article input[type="button"] {
 	display: block;
 	margin: 0 auto;
+
 }
 .collection-image{
 	width:100%;
@@ -206,9 +220,12 @@ h1 {
 	font-size: 2em;
 }
 .link-menu {
+	display: inline-block;
 	transform: none;
 	overflow: inherit;
-	position: relative;
+	margin: 0 auto;
+	position: static;
+	
 }
 .hamburger {
 	display: none;
@@ -222,3 +239,7 @@ h1 {
 }
 
 /* END FIRST BREAKPOINT */
+
+
+
+
