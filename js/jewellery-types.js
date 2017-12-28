@@ -40,7 +40,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
   function gatherData(data) {
     // console.log(data);
     // initialise some variables
-    let theData = "";
+    let theData = "<strong>Specialists in:</strong></br>";
     let langLinks = "";
     let img = "<img>";
     const languages = ["en"];
@@ -52,7 +52,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
      // if (tmp.thumbnail) {
      //   img = `<img src="${tmp.thumbnail.source}" alt="${tmp.title}"> `;
      // }
-     let title = `<strong><a href="${tmp.fullurl}">${tmp.title}</a></strong>`;
+     let title = `${tmp.title}`;
       //let extract = `<span class="txt">${tmp.extract}</span>`;
       //let langLinks = "";
       //for (k in tmp.langlinks) {
@@ -60,7 +60,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
        //   langLinks += `<a href=${tmp.langlinks[k].url}>${tmp.langlinks[k].lang}</a> `;
        // }
       //}
-      theData += `<li>${title}</li>`;
+      theData += `<span>${title}</span></br>`;
     }
     demoJSON.innerHTML = theData;
   }
@@ -68,7 +68,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
   // the API call is triggered once the user submits a query
   window.addEventListener("load", function(ev){
     // complete the request url
-    let wiki = baseURL + "jewelley categories";
+    let wiki = baseURL + "gold jewellery";
     // open a connection to the requested API url
     xhr.open("GET", wiki, true);
     // be polite to Wikipedia
