@@ -218,7 +218,7 @@
 		  margin-right: auto;
     }
      .hamburger {
-         display: none;
+         visibility: hidden;
     }
      .div-page-content {
          width: 65%;
