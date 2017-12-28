@@ -3,7 +3,7 @@
 
 **The website is themed on an ecommerce site selling Jewellery.**
 
-The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page. In the website, JavaScript was used to validate the user input. If the user did not write anything in the text boxes, a message is displayed to the user to fill the text field. This was repeated for all the fields on the contact form. Some javascript was also used to add the location marker and provide the company name using google maps API on the contacts page. CSS styles were added to the website for mobile and desktop versions. The CSS style use animation and transition to achieve some effects on the pages.
+The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page. In the website, JavaScript was used to validate the user input. If the user did not write anything in the text boxes, a message is displayed to the user to fill the text field. This was repeated for all the fields on the contact form. Some javascript was also used to add the location marker and provide the company name using google maps API on the contacts page. CSS styles were added to the website for mobile and desktop versions. The CSS style use animation and transition to achieve some effects on the pages. A seperate carosel style sheet file was created because it is only used on homepage. 
 
 
 ## 4 Basic design principles (PARC)
