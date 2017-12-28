@@ -5,7 +5,6 @@
 }
 .middle{
  display: table-cell;
-  vertical-align: middle;
   overflow: hidden;
   border: thin solid;
 }
@@ -27,8 +26,6 @@
 	margin:10px;
 }
 .container{
-  width:200px;
-  height:150px;
   display: table;
   margin: auto;
 }
@@ -36,7 +33,10 @@
 	float:left;
 }
 .carousel{
- 	min-width: max-content;
+ 	display: flex;
+	flex-flow: row no-wrap;
+	width: 190px;
+	transition: all .5s;
 }
 
 
@@ -48,6 +48,6 @@
 
 @media screen and (min-width:1024px) {
 	.container{
-	 	width:650px;
+	 	width:645px;
 	}
 }

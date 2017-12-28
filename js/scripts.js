@@ -1,24 +1,27 @@
 (function () {
 
-	nav_script = function () {
+	navigationEventHandler = function () {
 		let hamburger = document.getElementById("hamburger");
 		let linkMenu = document.getElementById("link-menu");
-
+		
+		//Register a click event for the hamburger menu.
 		hamburger.addEventListener("click", toggleMenu);
-
-		let toggle = true; // hidden at first
+	
+		// Menu is hidden at first
+		let toggle = true; 
 		function toggleMenu() {
 
-			if (toggle) { // true: it's visible
-				linkMenu.classList.remove("hide-menu"), linkMenu.classList.add("show-menu"), // show it
-					toggle = false
-			} else { // false: it's hidden
-				linkMenu.classList.remove("show-menu"), linkMenu.classList.add("hide-menu"), // hide it
-					toggle = true
+			if (toggle) { // if true: make it visible
+				linkMenu.classList.add("show-menu"); // add the css class
+				toggle = false;
+			} else { // if false: make if hidden
+				linkMenu.classList.remove("show-menu"); // remove the css class
+				toggle = true;
 			}
 		}
-
+				
 	};
-	window.addEventListener("load", nav_script);
+	//Register a load event to ensure the document is loaded first before binding the hamburger events
+	window.addEventListener("load", navigationEventHandler);
 
 })();

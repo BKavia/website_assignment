@@ -1,10 +1,12 @@
 (function () {
-	button_events = function () {
-		let buttons= document.getElementsByClassName("addBtn");
+	cartEventHandler = function () {
+		//Get all buttons that have the addToCartBtn style applied and register a click event on them.
+		let buttons= document.getElementsByClassName("addToCartBtn");
 		for (var i = 0; i < buttons.length; i++) {
 			buttons[i].addEventListener('click',handleEvent);
 		}
 		
+		//Increment a product cound variable and under the div content to show number of items in the cart.
 		let productCount = 0;
 		function handleEvent() {
 			productCount++;
@@ -12,9 +14,8 @@
 		}
 	};
 
-
-
-	window.addEventListener("load", button_events);
+	//Register a load event to ensure the document is loaded first before binding the button events
+	window.addEventListener("load", cartEventHandler);
 
 })();
 
