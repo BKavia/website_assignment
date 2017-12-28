@@ -1,5 +1,7 @@
+"use strict";
+
 (function () {
-	form_validation = function () {
+	let form_validation = function () {
 
 		let name = document.getElementById("txtName");
 		let email = document.getElementById("txtEmail");

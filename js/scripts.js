@@ -1,6 +1,7 @@
-(function () {
+"use strict";
 
-	navigationEventHandler = function () {
+(function () {
+	let navigationEventHandler = function () {
 		let hamburger = document.getElementById("hamburger");
 		let linkMenu = document.getElementById("link-menu");
 		

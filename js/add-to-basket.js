@@ -1,5 +1,6 @@
+"use strict";
 (function () {
-	cartEventHandler = function () {
+	let cartEventHandler = function () {
 		//Get all buttons that have the addToCartBtn style applied and register a click event on them.
 		let buttons= document.getElementsByClassName("addToCartBtn");
 		for (var i = 0; i < buttons.length; i++) {
