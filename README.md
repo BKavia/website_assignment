@@ -45,14 +45,14 @@ Grouping related products to for a group. On the website, related or similar pro
 
 ## Hand drawn Wireframes
 **Mobile first Wireframes**
-![mobile_home_collections_wireframe](wireframes/mobile_home_collections.jpg "mobile_home_collections")
-![mobile_aboutUs_contact_wireframe](wireframes/mobile_aboutUs_contact.jpg "mobile_aboutUs_contact")
+![mobile-home-collections-wireframe](wireframes/mobile-home-collections.jpg "mobile-home-collections")
+![mobile-aboutUs-contact-wireframe](wireframes/mobile-aboutUs-contact.jpg "mobile-aboutUs-contact")
 
 **Desktop Wireframes**
-![desktop_home_wireframe](wireframes/desktop_home.jpg "desktop_home")
-![desktop_collections_wireframe](wireframes/desktop_collections.jpg "desktop_collections")
-![Desktop_aboutus_wireframe](wireframes/desktop_aboutus.jpg "Desktop_aboutus")
-![desktop_contact_wireframe](wireframes/desktop_contact.jpg "desktop_contact")
+![desktop-home-wireframe](wireframes/desktop-home.jpg "desktop-home")
+![desktop-collections-wireframe](wireframes/desktop-collections.jpg "desktop-collections")
+![Desktop-aboutus-wireframe](wireframes/desktop-aboutus.jpg "Desktop-aboutus")
+![desktop-contact-wireframe](wireframes/desktop-contact.jpg "desktop-contact")
 
 
 
