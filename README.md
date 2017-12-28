@@ -58,6 +58,7 @@ The website was checked using the accessibility checker to ensure that it does n
 
 ## SiteMap
 An XML sitemap for the website has been generated so that search engines can be directed to the main contents of the website. The file is placed under the root directory and is called sitemap.xml
+![sitemap](images/sitemap.jpg "sitemap")
 
 ## Hand drawn Wireframes
 **Mobile first Wireframes**
