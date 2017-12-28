@@ -56,6 +56,10 @@ https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/websi
 **3. Accessibility** 
 The website was checked using the accessibility checker to ensure that it does not have errors. As per the suggestion, all errors have been corrected.
 
+## Testing
+The website has been tested using Chrome,Firefox and Internet Explorer to ensure that it works. It was also tested using other online tools like quirktools to see how it would appear on different screens.  Below is an example as it would appear on an Apple iPhone.
+http://quirktools.com/screenfly/#u=https%3A//bkavia.github.io/website_assignment/&w=320&h=568&a=37
+
 ## SiteMap
 An XML sitemap for the website has been generated so that search engines can be directed to the main contents of the website. The file is placed under the root directory and is called sitemap.xml
 ![sitemap](images/sitemap.jpg "sitemap")
