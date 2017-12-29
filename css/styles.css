@@ -30,7 +30,7 @@
      margin: 0;
      padding: 15px;
 }
-input[type="text"], textarea {
+ input[type="text"], textarea {
      margin: 2px;
      padding: 5px;
      border: thin solid #fff;
@@ -135,6 +135,9 @@ input[type="text"], textarea {
  .specialistDiv{
      margin-top: 5px;
 }
+ .social-media-title{
+     font-size: 15px;
+}
 /* Styles for the image slider*/
  @keyframes slidy {
      0% {
@@ -204,6 +207,15 @@ input[type="text"], textarea {
      h1 {
          font-size: 32px;
     }
+     .contactform {
+         display: inline-block;
+    }
+     .div-page-content {
+         width: 65%;
+    }
+     .hamburger {
+         visibility: hidden;
+    }
      .link-menu {
          display: flex;
          flex: 1;
@@ -212,14 +224,8 @@ input[type="text"], textarea {
          justify-content: center;
          margin-right: auto;
     }
-     .hamburger {
-         visibility: hidden;
-    }
-     .div-page-content {
-         width: 65%;
-    }
-     .contactform {
-         display: inline-block;
+     .social-media-title{
+         font-size: 18px;
     }
 }
 /* END FIRST BREAKPOINT */
