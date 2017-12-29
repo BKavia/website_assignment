@@ -14,7 +14,7 @@
      flex-wrap: nowrap;
      flex-flow: row;
 }
- nav a, .addToCartBtn {
+ nav a, button, .addToCartBtn {
      display: block;
      border: solid thin;
      padding: 5px;
@@ -23,7 +23,9 @@
      text-decoration: none;
 	 margin: 0 auto;
 }
- nav a:hover, .addToCartBtn:hover {
+
+ nav a:hover, button:hover, .addToCartBtn:hover,
+ .hamburger:hover, .cart-image:hover {
      background: #777;
      transition: all 0.4s;
 }
@@ -88,10 +90,6 @@
      justify-content: flex-start;
      margin-left: 20px;
 }
- .hamburger:hover, .cart-image:hover {
-     background-color: #777;
-	 transition: all 0.4s;
-}
  .link-menu {
      display: block;
      flex: 1 1 auto;
@@ -112,7 +110,9 @@
      border: thin solid #fff;
      margin: 10px auto;
 }
-
+ .specialistDiv{
+	margin-top: 5px;
+}
  @keyframes slidy {
      0% {
          left: 0;
@@ -162,10 +162,10 @@
  .error {
      border: thin solid #FC080C ! important;
 }
- .error_msg {
+ .error-msg {
      color: #FC080C ! important;
 }
- .success_msg {
+ .success-msg {
      color: #6EAB3D;
 }
  .aboutpage {

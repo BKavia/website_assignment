@@ -1,4 +1,24 @@
-/* Global and Mobile styles */
+/* Global and Mobile styles for the carousel.*/
+  .carousel{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     width: 190px;
+     transition: all .5s;
+}
+ .collection-image{
+     width:70%;
+}
+ .collection-article{
+     margin:10px;
+}
+ .container{
+     display: table;
+     margin: auto;
+}
+ .floatleft{
+     float:left;
+}
  .left, .right{
      display: table-cell;
      width:20px;
@@ -20,26 +40,8 @@
      background-color: #777;
      transition: all 0.4s;
 }
- .collection-image{
-     width:70%;
-}
- .collection-article{
-     margin:10px;
-}
- .container{
-     display: table;
-     margin: auto;
-}
- .floatleft{
-     float:left;
-}
- .carousel{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     width: 190px;
-     transition: all .5s;
-}
+
+
  @media screen and (min-width:768px) {
      .container{
          width:450px;

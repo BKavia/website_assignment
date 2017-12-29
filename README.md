@@ -3,7 +3,7 @@
 
 **The website is themed on an e-commerce site selling Jewellery.**
 
-The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page.  
+The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page. 
 
 ### CSS
 Animation and transitions were used on the website to achieve some effects on the pages. These were mainly on the product carousel and navigation areas to give the links and buttons a hover effect. A separate carousel style sheet file was created because it is only used on the homepage and in this way helps to reduce unnecessary style being downloaded where they are not required.
@@ -46,12 +46,17 @@ Grouping related products to for a group. On the website, related or similar pro
 ## Validation of the website
 **1. HTML**
 All website pages have been validated using the W3C HTML validator which validated successfully without any errors or warnings.
-https://validator.w3.org/nu/?doc=https://bkavia.github.io/website_assignment/index.html
+- https://validator.w3.org/nu/?doc=https://bkavia.github.io/website_assignment/index.html
+- https://validator.w3.org/nu/?doc=https://bkavia.github.io/website_assignment/collections.html
+- https://validator.w3.org/nu/?doc=https://bkavia.github.io/website_assignment/about.html
+- https://validator.w3.org/nu/?doc=https://bkavia.github.io/website_assignment/contact.html
 
 **2. CSS**
 The CSS styles of the website have been validated and no errors were found. These can be seen by following the URL below
-https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/index.html
-
+- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/index.html
+- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/collection.html
+- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/about.html
+- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/contact.html
 
 **3. Accessibility** 
 The website was checked using the accessibility checker to ensure that it does not have errors. As per the suggestion, all errors have been corrected.
@@ -76,6 +81,10 @@ An XML sitemap for the website has been generated so that search engines can be 
 ![desktop-contact-wireframe](wireframes/desktop-contact.jpg "desktop-contact")
 
 
+## Future Implementation for the website
+The website still has alot of functionality that still needs to be added. Some areas that can be added in the future include adding functionality for viewing the product details page which can be opened using the Quick View link that appears on the collections area. A shopping cart also needs to be implemented so the user could add and remove the products from the cart and finally make a purchase. 
+
+
 ## Experimental code/Problems
 Codepen was used for experimental purposes for the website. The product carousel needed some research on how to implement it. The idea of the carousel came after looking at the Sainsbury's website which displays different categories products. Experiment code was written on codepen to get an idea how it will work for the website. The experimental version can be seen by following the link https://codepen.io/anon/pen/MrbMNx?editors=1111. 
 There was an initial problem with the wrapping of the div which caused multiple lines on the slider to appear. This was first fixed by making the width really long but it did not work well when many products were added. This issue was fixed using the flexbox display and setting the div style not to wrap.
@@ -83,6 +92,13 @@ There was an initial problem with the wrapping of the div which caused multiple 
 
 ## References
 
-- W3 School website was used to reference HTML, CSS, JavaScript, Transitions, and Animations. For more information visit,    https://www.w3schools.com/html/
--  Hamburger and cart images downloaded from https://www.iconsdb.com
-- Home page image slider. https://codepen.io/dudleystorey/pen/ehKpi
+1. HTML Tutorial(2017) HTML Tutorial.[WWW] Available at: https://www.w3schools.com/html/. [Accessed 23 November 2017].
+  - W3 School website was used to reference HTML, CSS, JavaScript, Transitions, and Animations. 
+2. Blackboard@DMU(2017)Blackboard@DMU. [WWW] Available at: https://vle.dmu.ac.uk/. [Accessed  30 November 2017].
+  - Course notes and Lectures from Blackboard.
+3. Star Network(2017) Icons DB - free custom icons.[WWW] Available at: https://www.iconsdb.com. [Accessed 29 November 2017].
+  - Hamburger and cart images were downloaded.
+4. CodePen(2017) Responsive CSS Image Slider.[WW] Available at: https://codepen.io/dudleystorey/pen/ehKpi. [Accessed 2 December 2017].
+  - Home page image slider.
+5. Adobe Stock(2017)Stock photos, royalty-free images, graphics, vectors & videos | Adobe Stock. [WWW] Available at: https://stock.adobe.com/uk/. [Accessed 22 November 2017].
+  - Home, Collection and about page images were downloaded.

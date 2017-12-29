@@ -1,6 +1,7 @@
-(function () {
+"use strict";
 
-	carouselEventHandler = function () {
+(function () {
+	let carouselEventHandler = function () {
 
 		let leftButton = document.getElementById("leftButton");
 		let rightButton = document.getElementById("rightButton");
