@@ -5,6 +5,9 @@
 
 The requirement was to create the website that I have designed as part of the CTEC3905 Front End Web Development module. The website contains four pages: Index page, Collection page, About Us page and Contact page. 
 
+### HTML
+The website has been written in HTML5. It makes use of semantic elements such as header, footer, main, section and nav tags to differentiate between the part of the page.
+
 ### CSS
 Animation and transitions were used on the website to achieve some visual effects on the pages. These were mainly on the product carousel and navigation areas to give the links and buttons a hover effect. A separate carousel style sheet file was created because it is only used on the homepage and in this way helps to reduce unnecessary CSS styles being downloaded on the pages where they are not required.
 The CSS styles use media queries breakpoints to layout the elements for the mobile and desktop versions. 
