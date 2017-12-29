@@ -193,7 +193,7 @@ input[type="text"], textarea {
      color: #6EAB3D;
 }
 /* FIRST BREAKPOINT (Desktop SIZE) */
- @media screen and (min-width:480px) {
+ @media screen and (min-width:500px) {
      nav {
          height: auto;
     }
