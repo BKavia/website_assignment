@@ -38,6 +38,7 @@
     // loop through the result pages by pageid
 	theData += "<ul>";
     for(key in data.query.pages) {
+		//get only seven titles
 		if (titleCount < maxDisplaySize){
 			let tmp = data.query.pages[key];
 			let title = `${tmp.title}`;
@@ -45,7 +46,7 @@
 			titleCount++;
 		}
     }
-	  theData += "</ul>";
+	theData += "</ul>";
     specialistDiv.innerHTML = theData;
   }
 

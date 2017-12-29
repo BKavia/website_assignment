@@ -1,5 +1,5 @@
 "use strict";
-
+// Used only on the home page to move the product carousel
 (function () {
 	let carouselEventHandler = function () {
 

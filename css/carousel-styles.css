@@ -1,11 +1,18 @@
-/* Global and Mobile styles for the carousel.*/
-  .carousel{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     width: 190px;
-     transition: all .5s;
+/* Global and Mobile styles used for the carousel */
+ .left, .right{
+     display: table-cell;
+     width:20px;
+     vertical-align: middle;
 }
+ .middle{
+     display: table-cell;
+     overflow: hidden;
+     border: thin solid;
+}
+ .scrollBtn{
+     text-decoration:none;
+     font-size: 30px;
+ }
  .collection-image{
      width:70%;
 }
@@ -19,37 +26,22 @@
  .floatleft{
      float:left;
 }
- .left, .right{
-     display: table-cell;
-     width:20px;
-     vertical-align: middle;
+ .carousel{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     width: 190px;
+     transition: all .5s;
 }
- .middle{
-     display: table-cell;
-     overflow: hidden;
-     border: thin solid;
-}
- .scrollBtn{
-     background-color: #d1bea9;
-     text-decoration:none;
-     font-size: 30px;
-     color: #fff;
-     border: thin solid #fff;
-}
- .scrollBtn:hover{
-     background-color: #777;
-     transition: all 0.4s;
-}
-
-
+/*Media query for ipads to display two products*/
  @media screen and (min-width:768px) {
-     .container{
-         width:450px;
+     .carousel{
+         width:380px;
     }
 }
+/*Media query for desktop to display three products*/
  @media screen and (min-width:1024px) {
-     .container{
-         width:645px;
+     .carousel{
+         width:570px;
     }
 }
- 
