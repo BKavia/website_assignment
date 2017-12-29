@@ -54,7 +54,7 @@ All website pages have been validated using the W3C HTML validator which validat
 **2. CSS**
 The CSS styles of the website have been validated and no errors were found. These can be seen by following the URL below
 - https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/index.html
-- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/collection.html
+- https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/collections.html
 - https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/about.html
 - https://jigsaw.w3.org/css-validator/validator?uri=https://bkavia.github.io/website_assignment/contact.html
 
