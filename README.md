@@ -10,7 +10,7 @@ Animation and transitions were used on the website to achieve some effects on th
 The CSS style uses media queries breakpoints to layout the elements for the mobile and desktop versions. 
 
 ### Javascript
-In the website, JavaScript was used to validate the user input on the contact form. If the user does not write anything in the text boxes, a message is displayed to the user to fill the text field. This was repeated for all the fields on the contact form. Javascript has also been used on the navigation to register events and the product carousel to move the product slider.  
+In the website, JavaScript was used to validate the user input on the contact form. If the user does not write anything in the text boxes, a message is displayed to the user to fill the text field. This in for all the fields on the contact form. Javascript has also been used on the navigation to register events and the product carousel to move the product slider.  
 The Google map API was used on the contact page to display the location. The map has been customised to show a location marker and provide the company name using the API.
 
 ## 4 Basic design principles (PARC)
@@ -62,8 +62,8 @@ The CSS styles of the website have been validated and no errors were found. Thes
 The website was checked using the accessibility checker to ensure that it does not have errors. As per the suggestion, all errors have been corrected.
 
 ## Testing
-The website has been tested using Chrome,Firefox and Internet Explorer to ensure that it works. It was also tested using other online tools like quirktools to see how it would appear on different screens.  Below is an example as it would appear on an Apple iPhone.
-http://quirktools.com/screenfly/#u=https%3A//bkavia.github.io/website_assignment/&w=320&h=568&a=37
+The website has been tested using Chrome, Firefox and Internet Explorer to ensure that it works. It was also tested using other online tools like Quirktools to see how it would appear on different screens.  Below is an example as it would appear on an Apple iPhone.
+http://quirktools.com/screenfly/#u=https://bkavia.github.io/website_assignment/&w=320&h=568&a=37
 
 ## SiteMap
 An XML sitemap for the website has been generated so that search engines can be directed to the main contents of the website. The file is placed under the root directory and is called sitemap.xml
@@ -82,7 +82,7 @@ An XML sitemap for the website has been generated so that search engines can be 
 
 
 ## Future Implementation for the website
-The website still has alot of functionality that still needs to be added. Some areas that can be added in the future include adding functionality for viewing the product details page which can be opened using the Quick View link that appears on the collections area. A shopping cart also needs to be implemented so the user could add and remove the products from the cart and finally make a purchase. 
+The website still has a lot of functionality that still needs to be added. Some areas that can be added in the future include adding functionality for viewing the product details page which can be opened using the Quick View link that appears in the collections area. A shopping cart also needs to be implemented so the user could add and remove the products from the cart and finally make a purchase. 
 
 
 ## Experimental code/Problems
@@ -100,5 +100,5 @@ There was an initial problem with the wrapping of the div which caused multiple 
   - Hamburger and cart images were downloaded.
 4. CodePen(2017) Responsive CSS Image Slider.[WW] Available at: https://codepen.io/dudleystorey/pen/ehKpi. [Accessed 2 December 2017].
   - Home page image slider.
-5. Adobe Stock(2017)Stock photos, royalty-free images, graphics, vectors & videos | Adobe Stock. [WWW] Available at: https://stock.adobe.com/uk/. [Accessed 22 November 2017].
+5. Adobe Stock(2017)Stock photos, royalty-free images, graphics, vectors & videos | Adobe Stock. [WWW] Available at; https://stock.adobe.com/uk/. [Accessed 22 November 2017].
   - Home, Collection and about page images were downloaded.
