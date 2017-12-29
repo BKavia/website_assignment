@@ -68,7 +68,7 @@ http://quirktools.com/screenfly/#u=https://bkavia.github.io/website_assignment/&
 ## SiteMap
 An XML sitemap for the website has been generated so that search engines can be directed to the main contents of the website. The file is placed under the root directory and is called sitemap.xml. 
 
-A sample HTML sitemap would look as follows. As the aim of a sitemap is to guide users to the correct page, the current website only has four pages which can all be visited from the menu. Once the website grows, a HTML page can be added for this purpose.
+A sample HTML sitemap can also be created and it's layout look as follows. As the aim of a sitemap is to guide users to the correct page, the current website only has four pages which can all be visited from the menu. Once the website grows, a HTML page can be added for this purpose.
 ![sitemap](images/sitemap.jpg "sitemap")
 
 ## Hand drawn Wireframes
